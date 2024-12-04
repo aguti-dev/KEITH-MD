@@ -3,7 +3,7 @@
 You don't have to set this if you deploy using heroku because you can simply set them in environment variables, also don't forget to sleep */
 
 
-const session = process.env.SESSION || '';
+const session = process.env.SESSION || 'JFXFMSH8';
 
 const prefix = process.env.PREFIX || '.';
 const mycode = process.env.CODE || "254";
